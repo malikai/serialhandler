@@ -1,13 +1,10 @@
-#summary One-sentence summary of this page.
+#summary Read byte in buffer
 
 = Introduction =
 
-Add your content here.
+Used to read the first byte in the buffer.
 
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Return Buffer[0] and remove the byte so the next time the next byte is read.
