@@ -1,0 +1,14 @@
+#summary SerialHandler Class for arduino
+#labels Featured
+
+= Introduction =
+
+Used to manage complex input to control an arduino by serial
+
+
+= Details =
+
+Main feature
+  * Both way managed communication
+  * Recive command line and parameters easily
+  * Send command and wait for answer
