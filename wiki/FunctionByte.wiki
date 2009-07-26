@@ -1,9 +1,9 @@
-#summary One-sentence summary of this page.
+#summary Use of the FunctionByte
 #labels Phase-Design
 
 = Introduction =
 
-Byte at Buffer[0] is called the FunctionByte.
+Byte at `Buffer[0]` is called the FunctionByte.
 
 = Details =
 
