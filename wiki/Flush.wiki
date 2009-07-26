@@ -1,14 +1,11 @@
-#summary One-sentence summary of this page.
+#summary Clear the Buffer
 #labels Phase-Implementation
 
 = Introduction =
 
-Add your content here.
+Used to Clear the recived byte Buffer and be sure the next recived byte is the FunctionByte
 
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Before sending any command you should send this to avoid error caused by unread byte in the Buffer.
