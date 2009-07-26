@@ -1,3 +1,4 @@
 #summary Get the class Version
+#labels Phase-Implementation
 
 Use library_version() to get the version number
