@@ -1,13 +1,11 @@
-#summary One-sentence summary of this page.
+#summary Abord control char
+#labels Phase-Implementation
 
 = Introduction =
 
-Add your content here.
+Use to be sure the next send byte is the FunctionByte
 
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+When Abord is recived by SerialHandler and GetSerial(0) is called Flush is executed to clear the buffer so the next byte will be in Buffer[0]
