@@ -3,9 +3,9 @@
 
 = Introduction =
 
-When Ack is received by SerialHandler and GetSerial(0) is called the AttachFunction is lunched
+Used to trigger an attached command.
 
 
 = Details =
 
-Ack can be a char or a byte
+When Ack is received by SerialHandler and GetSerial(0) is called the AttachFunction is lunched
