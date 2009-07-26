@@ -1,13 +1,11 @@
-#summary One-sentence summary of this page.
+#summary Ack control char
+#labels Phase-Implementation
 
 = Introduction =
 
-Add your content here.
+When Ack is received by SerialHandler and GetSerial(0) is called the AttachFunction is lunched
 
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Ack can be a char or a byte
