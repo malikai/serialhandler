@@ -8,4 +8,4 @@ Use to be sure the next send byte is the FunctionByte
 
 = Details =
 
-When Abord is recived by SerialHandler and GetSerial(0) is called Flush is executed to clear the buffer so the next byte will be in Buffer[0]
+When Abord is recived by SerialHandler and GetSerial(0) is called, Flush is executed to clear the buffer so the next byte will be in Buffer[0].
