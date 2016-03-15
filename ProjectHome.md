@@ -1,0 +1,1 @@
+Class used to simplify the control of an arduino over serial.
